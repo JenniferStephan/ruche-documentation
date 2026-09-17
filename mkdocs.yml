@@ -1,0 +1,60 @@
+site_name: Documentation de la Ruche numérique
+site_description: La documentation de l'incubateur de services numériques du ministère de l'Agriculture
+site_url: https://jenniferstephan.github.io/ruche-documentation/
+repo_url: https://github.com/jenniferstephan/ruche-documentation
+repo_name: ruche-documentation
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fr
+  features:
+    - content.action.edit
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    edit: material/pencil
+  palette:
+    - scheme: default
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+
+plugins:
+  - search:
+      lang: fr
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  # Rend les icônes écrites `:material-…:` (crayon d'édition, flèches de renvoi)
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  generator: false

@@ -31,6 +31,7 @@ Cette page transforme nos bonnes pratiques en engagements vérifiables. Si une c
 | Tient le point de 20 minutes           | Suit l'onboarding du réseau beta.gouv        |
 | Donne les repères sur le ministère     | Identifie sa direction métier et son sponsor |
 | Explique l'articulation avec le réseau | Signale ce qui coince                        |
+| Inviter sur vault Ruche                | Rejoindre Vault Ruche                        |
 
 ## Premier mois
 
